@@ -1,4 +1,4 @@
-import assert from "power-assert";
+const assert = require("power-assert");
 
 it("hello", () => {
   assert.equal({}, { greeting: "Hello" });
